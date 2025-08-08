@@ -1,0 +1,5 @@
+# Ignore the entire data folder
+data/
+
+# Ignore all CSV files anywhere in the project
+*.csv
