@@ -1,4 +1,5 @@
 Task 1: Data Loading, Preprocessing, and Exploratory Data Analysis
+
 Data Loading and Preprocessing
 Historical daily price and volume data for TSLA, BND, and SPY were fetched using the yfinance Python library, spanning from July 1, 2015, to July 31, 2025.
 
