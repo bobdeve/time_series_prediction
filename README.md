@@ -282,3 +282,65 @@ Double-check notebooks: Kernel → Restart & Run All (in Jupyter) to ensure repr
 
 Include a short reports/interim_report.md that summarizes Tasks 1–5 (you already have content we prepared — paste it there).
 
+
+# 📈 Capstone Project: Portfolio Risk & Performance Analysis
+
+## 🔍 Overview
+This project applies **quantitative finance methods** to evaluate portfolio performance and risk.  
+It demonstrates reliability and risk reduction through **robust engineering and reproducible analysis**.
+
+The primary goals were:
+- Assess **portfolio returns and volatility** over time.  
+- Apply **statistical tests** (ADF) to evaluate stationarity.  
+- Calculate **Value-at-Risk (VaR)** and **Sharpe Ratios** as core risk metrics.  
+- Build a structured, maintainable, and finance-focused pipeline.  
+
+---
+
+## 🏦 Business Problem
+In modern financial markets, investors face **uncertainty and hidden risk exposure**.  
+Our business objective:  
+- Quantify **risk-adjusted returns**.  
+- Provide **transparent insights** into volatility, downside risk, and potential business impact.  
+
+**Impact**: This analysis framework supports **better portfolio allocation decisions** and reduces unexpected downside risks.
+
+---
+
+## ⚙️ Project Workflow
+
+### 1. Data Loading & Preprocessing
+- Historical daily price data (2015–2025) from `yfinance`.  
+- Cleaning: checked for missing values, aligned timeframes, ensured consistent datatypes.  
+
+### 2. Exploratory Data Analysis
+- Calculated **daily returns** and visualized time series.  
+- Performed **rolling mean & rolling volatility** analysis.  
+
+### 3. Statistical Testing
+- **ADF Test** to check for stationarity.  
+- Results used to determine model validity for time series forecasting.  
+
+### 4. Risk & Performance Metrics
+- **Cumulative Return**: 514.98%  
+- **Average Daily Return**: 0.0008  
+- **Volatility (σ)**: 0.0148  
+- **Sharpe Ratio**: 0.06  
+- **Value-at-Risk (VaR)** calculated at 95% and 99% confidence levels.  
+
+---
+
+## 📊 Results & Insights
+- Portfolio achieved **significant cumulative growth (514%)**, but **low Sharpe Ratio (0.06)** shows limited risk-adjusted efficiency.  
+- **Volatility (1.48%) daily** indicates moderate risk exposure.  
+- **VaR analysis** quantified potential losses at different confidence intervals, supporting better downside protection.  
+
+---
+
+## 🚀 How to Reproduce
+
+### Installation
+```bash
+git clone https://github.com/bobdeve/time_series_prediction.git
+cd time_series_prediction
+pip install -r requirements.txt
